@@ -4,8 +4,8 @@ import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.rest.api.MethodOutcome;
 import ca.uhn.fhir.rest.client.api.IGenericClient;
 import ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException;
-import org.hl7.fhir.r4.model.*;
 import org.hl7.fhir.instance.model.api.IIdType;
+import org.hl7.fhir.r4.model.*;
 
 public class TestApplicationHints {
 
@@ -192,7 +192,7 @@ public class TestApplicationHints {
       // Device.parent 0..1 Reference(Device)
    }
 
-   static void make_devicemetric()
+   static void create_devicemetric()
    {
       DeviceMetric newMetric = new DeviceMetric();
 
